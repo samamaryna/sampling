@@ -32,6 +32,10 @@ def simulate_event(m):
   - A tuple containing the proportion of infections and the proportion of traced cases
     that are attributed to weddings.
   """
+
+  # Set random seed for reproducibility: 
+  np.random.seed(10)
+
   # Create DataFrame for people at events with initial infection and traced status
   events = ['wedding'] * 200 + ['brunch'] * 800
   ppl = pd.DataFrame({
@@ -44,18 +48,24 @@ def simulate_event(m):
   ppl['traced'] = ppl['traced'].astype(pd.BooleanDtype())
 
   # Infect a random subset of people
+  # Random sampling without replacement to select units of people who get infected.
   infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
   ppl.loc[infected_indices, 'infected'] = True
 
   # Primary contact tracing: randomly decide which infected people get traced
+  # We use random sampling with replacement here to decide if an infected person gets traced.
   ppl.loc[ppl['infected'], 'traced'] = np.random.rand(sum(ppl['infected'])) < TRACE_SUCCESS
 
   # Secondary contact tracing based on event attendance
+  # We count traced individuals per event type and trace all infected individuals in events
+  # where the number of initially traced individuals equal or exceeds SECONDARY_TRACE_THRESHOLD.
   event_trace_counts = ppl[ppl['traced'] == True]['event'].value_counts()
   events_traced = event_trace_counts[event_trace_counts >= SECONDARY_TRACE_THRESHOLD].index
   ppl.loc[ppl['event'].isin(events_traced) & ppl['infected'], 'traced'] = True
 
-  # Calculate proportions of infections and traces attributed to each event type
+  # Calculate proportions of infections and traces attributed to each event type to compare
+  #  the infection and tracing rates between weddings and brunches.
+
   ppl['event_type'] = ppl['event'].str[0]  # 'w' for wedding, 'b' for brunch
   wedding_infections = sum(ppl['infected'] & (ppl['event_type'] == 'w'))
   brunch_infections = sum(ppl['infected'] & (ppl['event_type'] == 'b'))
