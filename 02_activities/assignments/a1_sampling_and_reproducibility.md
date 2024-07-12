@@ -10,10 +10,21 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+
+
+# Author: Maryna Kostiuk
 
 ```
-Please write your explanation here...
+
+The sampling procedure used for this model was cluster sampling with two clusters - wedding and brunches visitors. The sample size is 10% of people infected at every event (which is 20 from weddings and 80 from brunches)(variable 'infected_indices'). Sample frame - all people attended events (brunches and weddings)(variable 'events'). First sampling occuring - infected people, then - primary contact tracing, and after that - second tracing.
+This model involves the probability of being infected distribution, and tracing distribution. 
+
+No, the code doesn't reproduce the graphs in the blog post. 
+
+No, the code doesn't reproduce the graphs after the multiple runnings of code. The infectious from weddings has almost the same distribution as the one from the blog graphs, but observed proportion of cases traced back to weddings has different distribution than the one in the blog post. 
+
+To control reproducibility we need to set the random seed, by using the following code: ```np.random.seed(42)```
+It allows us to reproduce the same graphs each time. 
 
 ```
 
