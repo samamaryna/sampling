@@ -16,30 +16,35 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+Identify most popular reasons of dissatisfaction between entry-level and lower-lever employees in different departments. This will help to target the underlying reasons and increase the retention and satisfaction of employees. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population - are all current and past entry-lewel and low-level positions employees from different departments. 
+Sampling frame - list of currently work for the company entry-lewel and low-level positions employees from different departments.
+Sample unit - individual entry-lewel and low-level positions employee.
+Observational units - each individual employee that responded to the survey. 
+My sampling strategy - stratified sampling. All entry-lewel and lower-level employees will be classified into length-of-tenure stratas (<1 year, 1-2 years, 2-3 years, >3 years). After that I will be pulling random samples from this stratas to distribute the survey. 
+ 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Rate your satisfaction of working for our company from 1 to 10, where 10 is highly positive and 1 is highly negative. 
+2. Rate the feedback you recieve from your manager or mentor from 1 to 10, where 10 is highly positive and 1 is highly negative.
+3. Rate your daily workload from 1 to 10, where 10 is highly positive and 1 is highly negative.
+4. Rate the relationships between your team from 1 to 10, where 10 is highly positive and 1 is highly negative.
+5. Rate how likely you will stay within the company for the next 12 months, where 10 is certain and 1 highly unlikely. 
+6. List the challenging or dissatisfying aspect of your work (work-life balance, compensation and benefits, career development, work environment, management and communication, feedback) Rate them from 1 to 10 where 10 is highly dissatisfying. 
+7. Do you feel fairly supported and compensated for your work? Yes or No. 
+8. Select three things that can enhance your job satisfaction: work-life balance, compensation and benefits, career development, work environment, management and communication, feedback.  
+9. What is your work arrangements - remote, hybrid, on-site?  
+10. Rate the culture and work environment within the company from 1 to 10, where 10 is highly positive and 1 is highly negative. 
 ```
 
 ## Rubric
