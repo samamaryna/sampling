@@ -29,6 +29,7 @@ The target population - are all current and past entry-lewel and low-level posit
 Sampling frame - list of currently work for the company entry-lewel and low-level positions employees from different departments.
 Sample unit - individual entry-lewel and low-level positions employee.
 Observational units - each individual employee that responded to the survey. 
+My sampling strategy - stratified sampling. All entry-lewel and lower-level employees will be classified into length-of-tenure stratas (<1 year, 1-2 years, 2-3 years, >3 years). After that I will be pulling random samples from this stratas to distribute the survey. 
  
 ```
 
@@ -39,9 +40,9 @@ Your 5-10 question survey:
 3. Rate your daily workload from 1 to 10, where 10 is highly positive and 1 is highly negative.
 4. Rate the relationships between your team from 1 to 10, where 10 is highly positive and 1 is highly negative.
 5. Rate how likely you will stay within the company for the next 12 months, where 10 is certain and 1 highly unlikely. 
-6. List the challenging or dissatisfying aspect of your work. Rate them from 1 to 10 where 10 is highly dissatisfying. 
-7. Do you feel fairly supported and compensated for your work? 
-8. What would you improve to enhance your job satisfaction? 
+6. List the challenging or dissatisfying aspect of your work (work-life balance, compensation and benefits, career development, work environment, management and communication, feedback) Rate them from 1 to 10 where 10 is highly dissatisfying. 
+7. Do you feel fairly supported and compensated for your work? Yes or No. 
+8. Select three things that can enhance your job satisfaction: work-life balance, compensation and benefits, career development, work environment, management and communication, feedback.  
 9. What is your work arrangements - remote, hybrid, on-site?  
 10. Rate the culture and work environment within the company from 1 to 10, where 10 is highly positive and 1 is highly negative. 
 ```
