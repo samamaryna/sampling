@@ -21,9 +21,11 @@ How would you rate work environment from 1 to 10 where 1 is satisfying and 10 is
 How would you rate management and communication from 1 to 10 where 1 is satisfying and 10 is highly dissatisfying?
 How would you rate feedback from 1 to 10 where 1 is satisfying and 10 is highly dissatisfying?
 
+This would improve the quality of survey, by asking a simple questions instead of the multiple choise one with too much choices. 
+
 
 7. Do you feel fairly supported and compensated for your work? Yes or No. 
-I would change the 7th question too, instead of a double-barrel question I leave just compensated:
+I would change the 7th question too, instead of a double-barreled question I leave just compensated:
 Do you feel fairly compensated for your work? Yes or No. 
 
 
@@ -31,7 +33,7 @@ Do you feel fairly compensated for your work? Yes or No.
 I would delete this question from my survey. The 6 question has all of these things. 
 
 10. Rate the culture and work environment within the company from 1 to 10, where 10 is highly positive and 1 is highly negative. 
-I wouldsplit this question to two. 
+I wouldsplit this question to two insteads of double-barreled question. 
 Rate the work environment within the company from 1 to 10, where 10 is highly positive and 1 is highly negative. 
 AND
 Rate the work environment within the company from 1 to 10, where 10 is highly positive and 1 is highly negative. 
